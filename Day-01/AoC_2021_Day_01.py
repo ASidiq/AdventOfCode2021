@@ -37,7 +37,7 @@ class AdventOfCodeDayOne():
 
     
 
-if "__main__" == __name__:
+if __name__== "__main__" :
     with open(file="./input.txt",mode='r') as input:
 
         problem = AdventOfCodeDayOne(input)

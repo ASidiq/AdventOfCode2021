@@ -35,7 +35,7 @@ class AdventOfCodeDaySix():
 
     
  
-if "__main__"==__name__:
+if __name__ == "__main__":
 
     #numbers = None
     with open(file="./input.txt",mode='r') as numbers_input:

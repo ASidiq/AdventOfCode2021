@@ -98,7 +98,7 @@ class AdventOfCodeDayThree():
             gamma_str = "".join(gamma)
             epsilon_str = "".join(epsilon)
             return int(gamma_str, 2) * int(epsilon_str, 2)
-if "__main__"==__name__:
+if __name__=="__main__":
 
     with open(file="./input.txt",mode='r') as input:
 

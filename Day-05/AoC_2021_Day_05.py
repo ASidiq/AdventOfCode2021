@@ -80,7 +80,7 @@ class AdventOfCodeDayFive():
           
 
  
-if "__main__"==__name__:
+if __name__== "__main__":
 
 
     with open(file="./Coordinates.txt",mode='r') as numbers_input:
